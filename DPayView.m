@@ -7,7 +7,7 @@
 //
 
 #import "DPayView.h"
-#import "AppDelegate.h"
+// #import "AppDelegate.h"
 @interface DPayView ()<UITextFieldDelegate>
 @property (copy, nonatomic) void(^callback)(DPayView *passwordView, NSString *password);
 @property (strong, nonatomic) DSDotsView *dotsView;
